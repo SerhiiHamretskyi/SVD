@@ -18,7 +18,7 @@ def svd_via_eigendecomposition(A: np.ndarray):
 
     singular_vals = np.sqrt(np.maximum(eigvals, 0))
 
-    # Avoid dividing by zero
+
     U = (A @ V) / singular_vals
 
     return U, singular_vals, V.T
