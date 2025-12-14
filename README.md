@@ -21,12 +21,14 @@ This project implements **Singular Value Decomposition (SVD)** from scratch and 
 ## How to Run
 
 1. Activate your virtual environment:
+2. Run training to compute SVDs:
+3. Generate plots:
 
 ```bash
 source .venv/bin/activate        # activate your virtual environment
 python training.py               # runs SVD, computes errors, saves results
 python plots.py                  # plots errors and singular values
 
-```bash
+
 
 
